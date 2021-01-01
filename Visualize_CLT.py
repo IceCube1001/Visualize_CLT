@@ -16,5 +16,8 @@ seed(56)
 means = [mean(randint(0, 101, 500)) for _i in range(1000)]
 # plot the distribution of sample means
 n, bins, patches = plt.hist(means, 30, density=True, facecolor='r', alpha=0.70)
+plt.xlabel('Samples mean')
+plt.ylabel('Probability')
+plt.title('Visualize CLT')
 plt.show()
 print('The mean of the sample means is {}'.format(mean(means)))
