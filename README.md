@@ -1,1 +1,1 @@
-# Visualize_CLT
+# Visualize the central limit theorem.
